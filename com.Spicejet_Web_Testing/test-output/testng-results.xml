@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69037" started-at="2020-06-02T00:22:55 IST" finished-at="2020-06-02T00:24:04 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="69037" started-at="2020-06-02T00:22:55 IST" finished-at="2020-06-02T00:24:04 IST">
+      <class name="com_Spicejet_TestCases.TC001_FlightBooking">
+        <test-method status="PASS" signature="LogAndPrint()[pri:0, instance:com_Spicejet_TestCases.TC001_FlightBooking@1e965684]" name="LogAndPrint" is-config="true" duration-ms="85" started-at="2020-06-02T00:22:55 IST" finished-at="2020-06-02T00:22:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogAndPrint -->
+        <test-method status="PASS" signature="StartApplication(java.lang.String)[pri:0, instance:com_Spicejet_TestCases.TC001_FlightBooking@1e965684]" name="StartApplication" is-config="true" duration-ms="12688" started-at="2020-06-02T00:22:55 IST" finished-at="2020-06-02T00:23:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartApplication -->
+        <test-method status="PASS" signature="checkFunctionality()[pri:0, instance:com_Spicejet_TestCases.TC001_FlightBooking@1e965684]" name="checkFunctionality" duration-ms="56209" started-at="2020-06-02T00:23:08 IST" finished-at="2020-06-02T00:24:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFunctionality -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com_Spicejet_TestCases.TC001_FlightBooking@1e965684]" name="CloseBrowser" is-config="true" duration-ms="4" started-at="2020-06-02T00:24:04 IST" finished-at="2020-06-02T00:24:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com_Spicejet_TestCases.TC001_FlightBooking -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
